@@ -50,17 +50,35 @@
               </a>
             </li>
             <li class="menu__item">
-              <a href="#" class="header__profile">
+              <button type="button" class="header__profile">
                 <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <rect width="40" height="40" rx="8" fill="#1D1D1B"/>
                   <path d="M28 28V26C28 23.79 24.42 22 20 22C15.58 22 12 23.79 12 26V28M20 12C21.0609 12 22.0783 12.4214 22.8284 13.1716C23.5786 13.9217 24 14.9391 24 16C24 17.0609 23.5786 18.0783 22.8284 18.8284C22.0783 19.5786 21.0609 20 20 20C18.9391 20 17.9217 19.5786 17.1716 18.8284C16.4214 18.0783 16 17.0609 16 16C16 14.9391 16.4214 13.9217 17.1716 13.1716C17.9217 12.4214 18.9391 12 20 12Z" stroke="white"/>
                   </svg>
-              </a>
+              </button>
             </li>
           </ul>
         </nav>
       </div>
       <!-- <hr class="header__line"> -->
+    </div>
+  </header>
+
+  <header class="header-mobile">
+    <div class="container-mobile">
+      <div class="header__inner-mobile">
+        <div class="header__box">
+          <button type="button" class="button__menu-mobile">
+            <img src="./images/mobile/menu-header.svg" alt="" class="menu__img-mobile">
+          </button>
+        </div>
+        <a href="#" class="header__logo-mobile">
+          <img src="./images/mobile/logo-mobile.svg" alt="Logo">
+        </a>
+        <button class="header__profile-mobile">
+          <img src="./images/mobile/profile-header-mobile.svg" alt="">
+        </button>
+      </div>
     </div>
   </header>
 
@@ -108,7 +126,7 @@
       </div>
     </div>
   </section>
-  <section class="cosmetics">
+  <!-- <section class="cosmetics">
     <div class="container">
       <div class="cosmetics__inner">
         <div class="cosmetics__title">
@@ -145,7 +163,70 @@
         </ul>
       </div>
     </div>
+  </section> -->
+
+  <section class="cosmetics">
+    <div class="container">
+      <div class="cosmetics__inner">
+        <h3 class="cosmetics__title">
+          Cosmetics
+        </h3>
+        <div class="cosmetics__divider"></div>
+        <ul class="cosmetics__list">
+          <li class="cosmetics__item">
+            <a href="" class="cosmetics__link">
+              <img src="./images/cosmetics/1.svg" alt="" class="cosmetics__link-img">
+            </a>
+          </li>
+          <li class="cosmetics__item">
+            <a href="" class="cosmetics__link">
+              <img src="./images/cosmetics/2.svg" alt="" class="cosmetics__link-img">
+            </a>
+          </li>
+          <li class="cosmetics__item">
+            <a href="" class="cosmetics__link">
+              <img src="./images/cosmetics/3.svg" alt="" class="cosmetics__link-img">
+            </a>
+          </li>
+          <li class="cosmetics__item">
+            <a href="" class="cosmetics__link">
+              <img src="./images/cosmetics/4.svg" alt="" class="cosmetics__link-img">
+            </a>
+          </li>
+          <li class="cosmetics__item">
+            <a href="" class="cosmetics__link">
+              <img src="./images/cosmetics/5.svg" alt="" class="cosmetics__link-img">
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
   </section>
 
+  <section class="problem">
+    <div class="container">
+      <div class="problem__inner">
+        <div class="problem__content">
+          <h1 class="problem__title">
+            if there is a problem outside, then the answer lies within.
+          </h1>
+          <img src="./images/problem/vector.svg" alt="" class="problem__vector">
+          <p class="problem__text">
+            Et sit pellentesque quis diam nec vel in ultrices. Pulvinar blandit ullamcorper in sit eu sed bibendum sed gravida. Cras nulla leo a diam egestas consequat ullamcorper.
+          </p>
+          <button class="problem__btn">
+            <p class="problem__btn-text">
+              Appointment
+            </p>
+            <img src="./images/problem/arrow-right.svg" alt="" class="problem__btn-arrow">
+          </button>
+        </div>
+        <div class="problem__picture">
+          <img src="./images/problem/problem-img.png" alt="" class="problem__picture-img">
+        </div>
+      </div>
+    </div>
+    <div class="problem__bg"></div>
+  </section>
 </body>
 </html>
