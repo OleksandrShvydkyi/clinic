@@ -97,3 +97,8 @@ hr {
 input, select {
     vertical-align:middle;
 }
+
+button{
+    background: none;
+    padding: 0;
+}
