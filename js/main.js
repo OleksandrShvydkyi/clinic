@@ -1,0 +1,19 @@
+document.addEventListener("DOMContentLoaded", () => {
+  const button = document.querySelector('.button__menu-mobile');
+  const menu = document.querySelector('.menu__list-mobile');
+  const menuLinks = document.querySelectorAll('.menu__link-mobile');
+
+  button.addEventListener('click', () => {
+    button.classList.toggle('active');
+  
+    if (button.classList.contains('active')) {
+      button.setAttribute('aria-expanded', 'true')
+      menu.setAttribute('aria-hidden', 'false')
+      menuLinks.forEach(link => link.setAttribute('tabindex', '0'))
+    } else {
+      button.setAttribute('aria-expanded', 'false')
+      menu.setAttribute('aria-hidden', 'true')
+      menuLinks.forEach(link => link.setAttribute('tabindex', '0'))
+    }
+  });
+})
